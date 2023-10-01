@@ -1,9 +1,11 @@
 package hw1;
 
+import hw2.Healable;
+
 import java.time.LocalDate;
 import java.util.List;
 
-public class Animal {
+public class Animal  {
     protected String name;
     protected double weight;
     protected Owner owner;
@@ -26,6 +28,7 @@ public class Animal {
     }
 
     public Animal(String name) {
+
         this.name = name;
     }
 
@@ -41,6 +44,7 @@ public class Animal {
         goToSleep();
     }
     private void wakeUp() {
+
         System.out.println(this.TYPE + " проснулся.");
     }
 
@@ -109,4 +113,6 @@ public class Animal {
     public String getTYPE() {
         return TYPE;
     }
+
+
 }

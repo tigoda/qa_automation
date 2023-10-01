@@ -33,7 +33,7 @@ public class Main {
 //        barsik.goToSleep();
         barsik.lifeCycle();
         barbos.lifeCycle();
-        Duck duck = new Duck("Duck", 3.5,alex,LocalDate.now(), Color.BLACK);
+        Duck duck = new Duck("Duck", 3.5,alex,LocalDate.now(), Color.BLACK, 11.1);
         duck.lifeCycle();
 
     }
